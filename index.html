@@ -16,7 +16,7 @@
 <body id="top">
 
   <!-- NAVBAR -->
-  <div class="navbar navbar-fixed-top">
+  <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
@@ -25,18 +25,17 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="index.html" class="navbar-brand">
-            <!-- <img src="assets/img/loop-logo-white.png" alt="Loop Logo" /> -->
-            <h1 class="MyName">TJ Hill</h1>
-          </a>
+          <h1>
+            <a href="#top" class="navbar-brand scroll">TJ Hill</a>
+          </h1>
         </div>
-        <nav class="transparent navbar-collapse collapse" id="main-nav" role="navigation">
-          <ul class="nav navbar-nav navbar-right nav-text-light">
-            <li class="active"><a href="#top">HOME</a></li>
-            <li><a href="#about">ABOUT ME</a></li>
-            <li><a href="#services">SERVICES</a></li>
-            <li><a href="#works">WORKS</a></li>
-            <li><a href="#contact">CONTACT ME</a></li>
+        <nav class="navbar-collapse navbar-default collapse" id="main-nav" role="navigation">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a id="nav-home" href="#top">HOME</a></li>
+            <li><a id="about-me" href="#about">ABOUT ME</a></li>
+            <li><a id="nav-skills" href="#skills">SKILLS</a></li>
+            <li><a id="nav-projects" href="#projects">PROJECTS</a></li>
+            <li><a id="nav-contact" href="#contact">CONTACT ME</a></li>
           </ul>
         </nav>
       </div>
@@ -46,13 +45,14 @@
       <div class="section no-pad-bot">
         <div class="container">
           <br><br>
-          <h1 class="header center teal-text text-lighten-2">TJ Hill</h1>
-          <div class="row center">
-            <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-          </div>
-          <div class="row center">
+            <h1 class="header center teal-text text-lighten-2">TJ Hill</h1>
+            <div class="row center">
+              <h5 class="header col s12 light">Web Developer Extrordanaire</h5>
+            </div>
+
+          <!-- <div class="row center">
             <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-          </div>
+          </div> -->
           <br><br>
 
         </div>
@@ -60,45 +60,21 @@
       <div class="parallax"><img src="./assets/images/palm-trees.jpg" alt="palm trees and stars"></div>
     </div>
 
-
-    <div class="container">
+    <div class="container" id="about">
       <div class="section">
-
-        <!--   Icon Section   -->
-        <div class="row">
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-              <h5 class="center">Speeds up development</h5>
-
-              <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-            </div>
-          </div>
-
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-              <h5 class="center">User Experience Focused</h5>
-
-              <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-            </div>
-          </div>
-
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-              <h5 class="center">Easy to work with</h5>
-
-              <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-            </div>
+        <div class="row center">
+          <div class="img-circular">
+            <img src="./assets/images/tj.png" alt="tj hill" class="circle responsive-img">
           </div>
         </div>
-
+        <div class="row center">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
       </div>
     </div>
 
 
-    <div class="parallax-container valign-wrapper">
+    <div id="skills" class="parallax-container valign-wrapper">
       <div class="section no-pad-bot">
         <div class="container">
           <div class="row center">
@@ -106,7 +82,7 @@
           </div>
         </div>
       </div>
-      <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+      <div class="parallax"><img src="./assets/images/background2.jpg" alt="Unsplashed background img 2"></div>
     </div>
 
     <div class="container">
@@ -175,5 +151,38 @@
 <script src="./assets/js/bootstrap.min.js"></script>
 <script src="./assets/js/materialize.min.js"></script>
 <script src="./assets/js/init.js"></script>
+<script src="./assets/js/jquery.localScroll.min.js"></script>
+<script src="./assets/js/jquery.scrollTo.min.js"></script>
+<script src="./assets/js/main.js"></script>
 </body>
 </html>
+
+<!--   Icon Section   -->
+<div class="row">
+  <div class="col s12 m4">
+    <div class="icon-block">
+      <h2 class="center white-text"><i class="material-icons">flash_on</i></h2>
+      <h5 class="center">Speeds up development</h5>
+
+      <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+    </div>
+  </div>
+
+  <div class="col s12 m4">
+    <div class="icon-block">
+      <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+      <h5 class="center">User Experience Focused</h5>
+
+      <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+    </div>
+  </div>
+
+  <div class="col s12 m4">
+    <div class="icon-block">
+      <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+      <h5 class="center">Easy to work with</h5>
+
+      <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+    </div>
+  </div>
+</div>
