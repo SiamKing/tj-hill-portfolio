@@ -3348,6 +3348,14 @@ nav ul a span.badge {
   width: 90%;
 }
 
+@media only screen and (max-width: 601px) {
+  .circle {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+}
 @media only screen and (min-width: 601px) {
   .container {
     width: 85%;
