@@ -12,6 +12,11 @@
   border-bottom: 1px solid transparent;
   padding: 0px 10px 0px 10px; /*removing spacing*/
   margin: 14px; /*add spacing*/
+  transition: all 0.5s linear; /* vendorless fallback */
+    -o-transition: all 0.5s linear; /* opera */
+    -ms-transition: all 0.5s linear; /* IE 10 */
+    -moz-transition: all 0.5s linear; /* Firefox */
+    -webkit-transition: all 0.5s linear; /*safari and chrome */
 }
 
 .collapse.in {
@@ -46,7 +51,7 @@ nav a {
     text-decoration: none !important;
     color: #134ba5;
     font-size: 120%;
-    transition: 1s;
+    transition: all 1s ease-in-out;
 }
 
 .nav-margin {
