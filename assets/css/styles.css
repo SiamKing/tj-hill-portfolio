@@ -1,4 +1,5 @@
 .navbar-default{
+    color: #fff;
     background:transparent;
     border:none !important;
 }
@@ -52,6 +53,7 @@ p {
   position: relative;
   overflow: hidden;
   height: 1000px;
+  width: 100%;
 }
 /*.parallax-container {
   min-height: 380px;
@@ -67,10 +69,18 @@ p {
   .parallax-container .section {
     position: absolute;
     top: 40%;
-  }*/
+  }
   #index-banner .section {
     top: 10%;
   }
+}*/
+
+/* ------ TITLE PAGE ----- */
+.tj-title {
+  color: blue;
+  text-align: center;
+  font-family: 'Raleway' !important;
+  font-size: 100px;
 }
 
 /* ------ ABOUT ------ */
@@ -90,7 +100,7 @@ p {
 }
 
 .bio {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 @media only screen and (max-width : 600px) {
