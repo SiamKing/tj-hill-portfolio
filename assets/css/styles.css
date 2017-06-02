@@ -2,27 +2,38 @@
     color: #fff;
     background:transparent;
     border:none !important;
+    max-height: 5px !important;
 }
 .navbar-nav>li>a:hover{
     text-decoration: underline;
 }
 .navbar-default .navbar-nav > li > a {
   color: #fff;
+  font-family: 'Raleway';
+  letter-spacing: 2px;
   border-bottom: 1px solid transparent;
-  padding: 0; /*removing spacing*/
+  padding: 0px 10px 0px 10px; /*removing spacing*/
   margin: 14px; /*add spacing*/
 }
+
+
 .collapse.in {
     background-color:#fff !important;
 }
 
-/*.navbar {
-  background-color: transparent;
-  color: #fff;
-}*/
-.navbar-brand {
-  padding: 10px 15px;
-  font-size: 20px;
+.brand {
+  margin-top: 5px;
+  margin-left: 40px;
+  letter-spacing: 8px;
+  font-size: 30px;
+  font-family: 'Raleway';
+  color: #134ba5;
+}
+
+navbar-wrapper {
+  position: fixed;
+  width: 100% !important;
+  margin-top: -1px;
 }
 
 nav a {
@@ -31,6 +42,10 @@ nav a {
 
 .nav>li>a:hover, .nav>li>a:focus {
     background-color: transparent !important;
+}
+
+.nav-margin {
+  margin-right: 40px;;
 }
 
 .active {
@@ -113,6 +128,14 @@ p {
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
+  }
+}
+
+@media only screen and (max-width : 992px) {
+  .navbar-default .navbar-nav > li > a {
+    letter-spacing: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 
