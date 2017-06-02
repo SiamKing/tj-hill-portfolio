@@ -1,12 +1,10 @@
-.navbar-default{
-    color: #fff;
-    background:transparent;
-    border:none !important;
-    max-height: 5px !important;
+.navbar-default {
+  color: #fff;
+  background:transparent;
+  border:none !important;
+  max-height: 5px !important;
 }
-.navbar-nav>li>a:hover{
-    text-decoration: underline;
-}
+
 .navbar-default .navbar-nav > li > a {
   color: #fff;
   font-family: 'Raleway';
@@ -15,7 +13,6 @@
   padding: 0px 10px 0px 10px; /*removing spacing*/
   margin: 14px; /*add spacing*/
 }
-
 
 .collapse.in {
     background-color:#fff !important;
@@ -30,6 +27,10 @@
   color: #134ba5;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 navbar-wrapper {
   position: fixed;
   width: 100% !important;
@@ -42,6 +43,10 @@ nav a {
 
 .nav>li>a:hover, .nav>li>a:focus {
     background-color: transparent !important;
+    text-decoration: none !important;
+    color: #134ba5;
+    font-size: 120%;
+    transition: 1s;
 }
 
 .nav-margin {
@@ -52,8 +57,8 @@ nav a {
   text-decoration: underline;
 }
 
-.spacer{
-    height:100px;
+.spacer {
+  height:100px;
 }
 
 p {
