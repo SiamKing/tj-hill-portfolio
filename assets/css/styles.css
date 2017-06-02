@@ -77,30 +77,36 @@ p {
 
 /* ------ TITLE PAGE ----- */
 .tj-title {
-  color: blue;
+  color: #264270;
   text-align: center;
   font-family: 'Raleway' !important;
   font-size: 100px;
 }
 
+.full-stack {
+  text-align: center;
+  font-family: 'Bubbler One';
+  font-size: 40px;
+}
+
 /* ------ ABOUT ------ */
 .img-circular {
   margin: auto;
-  margin-top: 50px;
-  margin-bottom: 15px;
-  width: 50px;
-  height: 50px;
+  max-width: 100%;
+  height: auto;
   border-radius: 50%;
   overflow: hidden;
 }
 
 #about {
-  padding-top: 50px;
-  min-height: 500px;
+  padding: 50px;
+  min-height: 400px;
 }
 
 .bio {
   padding-top: 50px;
+  text-align: center;
+  font-family: 'Indie Flower';
 }
 
 @media only screen and (max-width : 600px) {
