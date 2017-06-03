@@ -1,3 +1,7 @@
+body {
+  font-family: 'Raleway';
+}
+
 .navbar-default {
   color: #fff;
   background:transparent;
@@ -26,10 +30,9 @@
 
 .brand {
   margin-top: 5px;
-  margin-left: 40px;
+  margin-left: 50px;
   letter-spacing: 8px;
   font-size: 30px;
-  font-family: 'Raleway';
   color: #134ba5;
 }
 
@@ -48,15 +51,15 @@ nav a {
 }
 
 .nav>li>a:hover, .nav>li>a:focus {
-    background-color: transparent !important;
-    text-decoration: none !important;
-    color: #134ba5;
-    font-size: 120%;
-    transition: all 1s ease-in-out;
+  background-color: transparent !important;
+  text-decoration: none !important;
+  color: #134ba5;
+  font-size: 120%;
+  transition: all 1s ease-in-out;
 }
 
 .nav-margin {
-  margin-right: 40px;;
+  margin-right: 50px;;
 }
 
 .active {
@@ -106,7 +109,6 @@ p {
 .tj-title {
   color: #264270;
   text-align: center;
-  font-family: 'Raleway' !important;
   font-size: 100px;
   letter-spacing: 10px;
 }
@@ -143,10 +145,10 @@ p {
   background-image: url('../images/produce-app.png');
   width: 200px;
   height: 150px;
-    padding-bottom: 50px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  padding-bottom: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ------- SKILLS --------*/
@@ -154,11 +156,11 @@ p {
   height: 100px;
   width: 100px;
   opacity: .5;
+  margin-top: 25px;
 }
 
 .title-h3 {
   font-size: 100px;
-  font-family: 'Raleway';
   color: black;
   opacity: .5;
 }
@@ -166,6 +168,9 @@ p {
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
+  }
+  .title-h3 {
+    font-size: 50px;
   }
 }
 
