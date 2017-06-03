@@ -2744,7 +2744,7 @@ video.responsive-video {
 }
 
 .parallax-container {
-  padding-top: 200px;
+  /*padding-top: 200px;*/
   position: relative;
   overflow: hidden;
   height: 500px;
@@ -4469,7 +4469,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-weight: inherit;
 }
 
-h1 {
+/*h1 {
   font-size: 4.2rem;
   line-height: 110%;
   margin: 2.1rem 0 1.68rem 0;
@@ -4503,7 +4503,7 @@ h6 {
   font-size: 1rem;
   line-height: 110%;
   margin: 0.5rem 0 0.4rem 0;
-}
+}*/
 
 em {
   font-style: italic;

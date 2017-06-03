@@ -3,6 +3,7 @@
   background:transparent;
   border:none !important;
   max-height: 5px !important;
+  opacity: .9 !important;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -107,11 +108,12 @@ p {
   text-align: center;
   font-family: 'Raleway' !important;
   font-size: 100px;
+  letter-spacing: 10px;
 }
 
 .full-stack {
   text-align: center;
-  font-family: 'Bubbler One';
+  font-family: 'Ubuntu';
   font-size: 40px;
 }
 
@@ -145,6 +147,20 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* ------- SKILLS --------*/
+.icon {
+  height: 100px;
+  width: 100px;
+  opacity: .5;
+}
+
+.title-h3 {
+  font-size: 100px;
+  font-family: 'Raleway';
+  color: black;
+  opacity: .5;
 }
 
 @media only screen and (max-width : 600px) {
