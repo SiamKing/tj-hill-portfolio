@@ -28,6 +28,9 @@ $(function() {
     $(this).addClass("active");
   });
 
+  $('.brand').click(function() {
+    $.scrollTo('#top', 800)
+  })
 });
 
 

@@ -132,7 +132,19 @@ p {
 .bio {
   padding-top: 50px;
   text-align: center;
-  font-family: 'Indie Flower';
+  font-family: 'Ubuntu';
+}
+
+/* ------- PROJECTS ------- */
+.produce-image {
+  vertical-align: center;
+  background-image: url('../images/produce-app.png');
+  width: 200px;
+  height: 150px;
+    padding-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media only screen and (max-width : 600px) {
