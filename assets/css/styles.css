@@ -169,11 +169,16 @@ p {
 }
 
 /* ------- PROJECTS ------- */
-.produce-image {
+.project-image {
+  border-color: black;
+  border-width: thick;
   vertical-align: center;
+  position: relative;
   background-image: url('../images/produce-app.png');
-  width: 200px;
-  height: 150px;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 200px;
   padding-bottom: 50px;
   display: block;
   margin-left: auto;
