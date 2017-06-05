@@ -1,9 +1,14 @@
 <!DOCTYPE html>
+<!--[if IE 8]> <html class="no-js lt-ie9 ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="ie9" lang="en"> <![endif]-->
+<!--[if IE 10]> <html class="ie10" lang="en"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]> <html lang="en"> <![endif]-->
 <html>
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="TJ Hill is a Full Stack Web Developer and musician living in Los Angeles, CA">
   <title>TJ Hill</title>
 
   <!-- Styles -->
@@ -13,9 +18,18 @@
   <link type="text/css" rel="stylesheet" href="./assets/css/materialize.css"  media="screen,projection"/>
   <link type="text/css" rel="stylesheet" href="./assets/css/styles.css">
 
+  <script src="./assets/js/modernizr.js"></script>
 </head>
 <body id="top">
 
+  <!-- PRELOADER -->
+  <div class="preloader">
+     <div class="spinner">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+      </div>
+  </div>
   <!-- NAVBAR -->
   <div class="navbar-wrapper">
     <div class="navbar navbar-default navbar-fixed-top">
@@ -51,7 +65,7 @@
           <br><br>
           <h1 class="tj-title">TJ Hill</h1>
           <div class="row center">
-            <h5 class="full-stack col s12 light">Full Stack Web Developer</h5>
+            <h5 class="full-stack col s12">Full Stack Web Developer</h5>
           </div>
           <br><br>
         </div>
@@ -179,11 +193,7 @@
           </div>
         </div>
       </div>
-      <div class="footer-copyright">
-        <div class="container">
-        Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-        </div>
-      </div>
+
     </footer>
 
 <script src="./assets/js/jquery-3.2.1.min.js"></script>

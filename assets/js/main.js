@@ -1,3 +1,8 @@
+// PRELOADER
+$(window).on('load', function(){
+  $('.preloader').fadeOut('slow'); // set duration in brackets
+});
+
 $(function() {
   var scroll_start = 0;
   var about = $('#about');
