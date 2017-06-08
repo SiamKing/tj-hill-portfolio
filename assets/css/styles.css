@@ -195,7 +195,7 @@ p {
   font-size: 75px;
   color: black;
   opacity: .5;
-  margin-bottom: 25px;
+  margin: 25px;
 }
 
 /* ------ SOCIAL ------*/
@@ -222,20 +222,19 @@ p {
 
 @media only screen and (max-width : 480px) {
   body {
-    /*padding: 10px !important;*/
     font-size: 75% !important;
   }
   #index-banner .section {
     top: 0;
   }
   .title-h3 {
-    font-size: 20px;
+    font-size: 40px;
   }
   h1.tj-title {
     font-size: 50px;
   }
   .icon {
-    font-size: 4em;
+    font-size: 6em;
   }
   .brand {
     margin-top: 5px;
@@ -252,11 +251,30 @@ p {
   }
 }
 
-.icon-block {
-  padding: 0 15px;
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
 }
-.icon-block .material-icons {
-  font-size: inherit;
+
+@media only screen and (max-width: 601px) {
+  .circle {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 601px) {
+  .container {
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 70%;
+  }
 }
 
 .section {
@@ -274,6 +292,28 @@ p {
   margin-bottom: 20px;
 }
 
+.page-footer {
+  padding-top: 20px;
+  background-color: #000;
+}
+
+.page-footer container {
+  height: 50px;
+}
+
+.page-footer .footer-copyright {
+  overflow: hidden;
+  min-height: 50px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0px;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(51, 51, 51, 0.08);
+}
 footer.page-footer {
   margin: 0;
 }
