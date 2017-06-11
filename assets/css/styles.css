@@ -1,10 +1,9 @@
 html, body {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   height: 100%;
 }
 
 .navbar-default {
-  /*color: #fff;*/
   background:transparent;
   border:none !important;
   opacity: .9 !important;
@@ -13,27 +12,16 @@ html, body {
 .navbar-default .navbar-nav > li > a {
   color: #fff;
   font-family: 'Raleway';
-  letter-spacing: 2px;
+  font-size: 16px;
+  letter-spacing: 6px;
   border-bottom: 1px solid transparent;
-  padding: 0px 10px 0px 10px; /*removing spacing*/
+  padding: 0 15px 0 15px; /*removing spacing*/
   margin: 14px; /*add spacing*/
   transition: all 0.5s linear; /* vendorless fallback */
     -o-transition: all 0.5s linear; /* opera */
     -ms-transition: all 0.5s linear; /* IE 10 */
     -moz-transition: all 0.5s linear; /* Firefox */
     -webkit-transition: all 0.5s linear; /*safari and chrome */
-}
-
-/*.collapse.in {
-  background-color:#fff !important;
-}*/
-
-.brand {
-  margin-top: 5px;
-  margin-left: 50px;
-  letter-spacing: 8px;
-  font-size: 30px;
-  color: #134ba5;
 }
 
 a:hover {
@@ -74,9 +62,6 @@ p {
   line-height: 2rem;
 }
 
-.button-collapse {
-  color: #26a69a;
-}
  /* ------ PARALLAX ------- */
 
 .fullcreen {
@@ -215,7 +200,7 @@ p {
 
 /* ------ SOCIAL ------*/
 .social [class*="fa fa-"] {
-  background-color: #333;
+  background-color: #000;
   border-radius: 60px;
   border-width: 1px;
   color: #fff;
@@ -227,13 +212,13 @@ p {
   max-width: auto;
   font-size: 60px;
   text-align: center;
-  opacity: .9;
+  opacity: .8;
 }
 
 .follow-me {
   margin-top: 50px;
   text-align: center;
-  /*width: 400px;*/
+  width: 500px;
   max-width: auto;
   /*height: 500px;*/
 }
@@ -270,6 +255,9 @@ p {
     width: 60px;
     line-height: 60px;
     font-size: 40px;
+  }
+  .follow-me {
+    width: 200px;
   }
 
 }
