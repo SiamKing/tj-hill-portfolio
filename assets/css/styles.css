@@ -4,10 +4,9 @@ html, body {
 }
 
 .navbar-default {
-  color: #fff;
+  /*color: #fff;*/
   background:transparent;
   border:none !important;
-  max-height: 5px !important;
   opacity: .9 !important;
 }
 
@@ -25,9 +24,9 @@ html, body {
     -webkit-transition: all 0.5s linear; /*safari and chrome */
 }
 
-.collapse.in {
+/*.collapse.in {
   background-color:#fff !important;
-}
+}*/
 
 .brand {
   margin-top: 5px;
@@ -225,6 +224,7 @@ p {
   line-height: 100px;
   margin: auto 3px;
   width: 100px;
+  max-width: auto;
   font-size: 60px;
   text-align: center;
   opacity: .9;
@@ -233,13 +233,21 @@ p {
 .follow-me {
   margin-top: 50px;
   text-align: center;
-  width: 400px;
-  height: 500px;
+  /*width: 400px;*/
+  max-width: auto;
+  /*height: 500px;*/
+}
+.col-centered {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
 }
 
 @media only screen and (max-width : 480px) {
   body {
     font-size: 75% !important;
+    margin: 0 auto;
+    padding: 0;
   }
   #index-banner .section {
     top: 0;
@@ -257,7 +265,19 @@ p {
     margin-top: 5px;
     margin-left: 0px;
   }
+  .social [class*="fa fa-"] {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    font-size: 40px;
+  }
 
+}
+
+@media only screen and (max-width : 375px) {
+  body {
+    margin: 0;
+  }
 }
 
 @media only screen and (max-width : 992px) {
