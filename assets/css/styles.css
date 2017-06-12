@@ -79,12 +79,18 @@ p {
   background-position:50% 50%9 !important;
   padding-top: 40px;
   padding-bottom: 40px;
+
 }
 .background.eagle-rock {
-  background-image: url('../images/eagle-rock.jpg');
+
+  background-image: linear-gradient(
+      rgba(18, 39, 32, 0.9),
+      rgba(255, 255, 255, 0)
+    ),url('../images/road-trees.jpg');
+
 }
 .background.sand {
-  background-image: url('../images/sand.jpg');
+  background-image: url('../images/water.jpg');
 }
 .background.pelicans {
   background-image: url('../images/pelicans.jpg');
@@ -119,9 +125,7 @@ p {
   top: 50%;
   left: 50%;
   position: absolute;
-  margin: -100px 0 0 -200px;
-  border-bottom: 1px solid #fdfcfc;
-  border-top: 1px solid #fdfcfc;
+  margin: -170px 0 0 -200px;
   padding: 35px 0;
   color: #fdfcfc;
   text-align: center;
@@ -137,7 +141,7 @@ p {
 }
 
 hr {
-  max-width: 40%;
+  max-width: 30%;
   text-align: center;
 }
 
@@ -146,8 +150,36 @@ hr {
   text-shadow: 1px 1px 2px rgba(0,0,0, 0.3);
   font-family: 'Tangerine', cursive;
   letter-spacing: 2px;
-  font-size: 30px;
+  font-size: 32px;
   color: #fff;
+  margin: -10px 0 -10px 0;
+}
+.fancy {
+  overflow: hidden;
+  text-align: center;
+}
+.fancy span {
+  position: relative;
+}
+.fancy span:before,
+.fancy span:after {
+  $linesHeight: 7px;
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  width: 600px;
+  height: $linesHeight;
+  top: 50%;
+  margin-top: floor(-$linesHeight / 2);
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
 }
 
 /* ------ ABOUT ------ */
@@ -198,15 +230,15 @@ hr {
   margin-top: -50px;
 }
 .icon {
-  opacity: .7;
+  opacity: .8;
   margin-top: 25px;
-  font-size: 7em;
+  font-size: 5em;
   text-align: center;
 }
 
 .title-h3 {
   text-align: center;
-  font-size: 75px;
+  font-size: 60px;
   color: black;
   opacity: .5;
   margin: 25px;
@@ -219,6 +251,7 @@ hr {
 }
 
 #projects {
+  height: 800px;
   margin-top: 40px;
   margin-bottom: 40px;
 }
@@ -226,18 +259,21 @@ hr {
 /* ------ SOCIAL ------*/
 .social [class*="fa fa-"] {
   background-color: #000;
-  border-radius: 60px;
+  border-radius: 100px;
   border-width: 1px;
   color: #fff;
   display: inline-block;
-  height: 100px;
-  line-height: 100px;
+  height: 50px;
+  line-height: 50px;
   margin: auto 3px;
-  width: 100px;
+  width: 50px;
   max-width: auto;
-  font-size: 60px;
+  font-size: 35px;
   text-align: center;
-  opacity: .8;
+  opacity: .5;
+}
+.fa-github {
+  font-size: 40px;
 }
 
 .follow-me {
@@ -245,7 +281,6 @@ hr {
   text-align: center;
   width: 500px;
   max-width: auto;
-  /*height: 500px;*/
 }
 .col-centered {
   float: none;
@@ -271,15 +306,11 @@ hr {
   .icon {
     font-size: 6em;
   }
-  .brand {
-    margin-top: 5px;
-    margin-left: 0px;
-  }
   .social [class*="fa fa-"] {
-    height: 60px;
-    width: 60px;
-    line-height: 60px;
-    font-size: 40px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 20px;
   }
   .follow-me {
     width: 200px;
