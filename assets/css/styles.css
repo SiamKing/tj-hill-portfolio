@@ -241,7 +241,6 @@ hr {
   text-align: center;
   text-shadow: 1px 1px 2px rgba(0,0,0, 0.3);
   font-size: 60px;
-  color: white;
   margin: 50px;
 }
 
@@ -289,13 +288,12 @@ hr {
 .projects.bg-image {
   background-image: url('../images/handmadepaper_@2X.png');
 }
-.title-h4 {
+.fancy-skills.span {
+  color: #000 !important;
+}
+.projects-title {
   text-align: center;
   font-size: 20px;
-}
-
-#projects {
-  height: 800px;
 }
 
 /* ------ SOCIAL ------*/
