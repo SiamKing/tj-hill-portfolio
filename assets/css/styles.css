@@ -42,7 +42,8 @@ nav a {
 .nav>li>a:hover, .nav>li>a:focus {
   background-color: transparent !important;
   text-decoration: none !important;
-  color: #bfc0ff !important;
+  color: #0963e2 !important;
+  transition: all 1s ease-in-out;
 }
 
 .nav-margin {
@@ -334,6 +335,9 @@ hr {
     font-size: 75% !important;
     margin: 0 auto;
     padding: 0;
+  }
+  .hero {
+    margin-top: 60px;
   }
   .container {
     width: 60%;
