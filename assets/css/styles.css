@@ -3,6 +3,10 @@ html, body {
   height: 100%;
   font-weight: 300;
 }
+h4 {
+  text-align: center;
+  padding: 5px 15px;
+}
 
 .navbar-default {
   background:transparent;
@@ -242,6 +246,7 @@ hr {
   text-shadow: 1px 1px 2px rgba(0,0,0, 0.3);
   font-size: 60px;
   margin: 50px;
+  color: #fff;
 }
 
 .fancy-skills span:before,
@@ -288,10 +293,9 @@ hr {
 .projects.bg-image {
   background-image: url('../images/handmadepaper_@2X.png');
 }
-.fancy-skills.span {
-  color: #000 !important;
-}
+
 .projects-title {
+  margin-top: 10px;
   text-align: center;
   font-size: 20px;
 }
@@ -346,7 +350,7 @@ hr {
   }
   .title-h3 {
     font-size: 40px;
-    color: #fff !important;
+    margin: 50px 0 50px 0;
   }
   .tj-title {
     font-size: 50px;
@@ -365,6 +369,10 @@ hr {
   }
   .follow-me {
     width: 200px;
+  }
+  .h4-footer {
+    margin-top: -10px !important;
+    font-size: 10px;
   }
 
 }
@@ -410,30 +418,25 @@ hr {
   margin-bottom: 20px;
 }
 
+/* -------- FOOTER --------*/
 .page-footer {
   padding-top: 20px;
   background-color: #000;
 }
 
 .page-footer container {
-  height: 50px;
+  height: 30px;
 }
 
-.page-footer .footer-copyright {
-  overflow: hidden;
-  min-height: 50px;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 10px 0px;
-  color: rgba(255, 255, 255, 0.8);
-  background-color: rgba(51, 51, 51, 0.08);
-}
 footer.page-footer {
   margin: 0;
+}
+.footer-icons {
+  padding-top: 10px;
+}
+.h4-footer {
+  margin-top: 0;
+  color: #fff;
 }
 
 /* ------ PRELOADER ------- */
