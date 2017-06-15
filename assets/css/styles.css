@@ -42,9 +42,7 @@ nav a {
 .nav>li>a:hover, .nav>li>a:focus {
   background-color: transparent !important;
   text-decoration: none !important;
-  color: #fff;
-  font-size: 150%;
-  transition: all 1s ease-in-out;
+  color: #bfc0ff !important;
 }
 
 .nav-margin {
