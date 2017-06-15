@@ -143,7 +143,7 @@ p {
   display: inline-block;
   vertical-align: middle;  /* vertical alignment of the inline element */
                            /* reset the font property */
-  font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px/1 "Lato", Helvetica, Arial, sans-serif;
 }
 
 .tj-title {
@@ -152,7 +152,7 @@ p {
   font-size: 100px;
   font-weight: 500;
   text-align: center;
-  margin-bottom: -20px;
+  margin-bottom: -10px;
 }
 
 hr {
@@ -181,22 +181,25 @@ hr {
   $linesHeight: 7px;
   content: "";
   position: absolute;
-  border-bottom: 1px solid white;
-  border-top: 1px solid white;
-  width: 600px;
   height: $linesHeight;
   top: 50%;
   margin-top: floor(-$linesHeight / 2);
 }
-.fancy span:before {
+.fancy-fullstack span:before {
   right: 100%;
   margin-right: 15px;
 }
-.fancy span:after {
+.fancy-fullstack span:after {
   left: 100%;
   margin-left: 15px;
 }
 
+.fancy-fullstack span:before,
+.fancy-fullstack span:after {
+  width: 600px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
 /* ------ ABOUT ------ */
 .img-circular {
   margin: auto;
@@ -223,23 +226,6 @@ hr {
   max-width: 100%;
 }
 
-/* ------- PROJECTS ------- */
-.project-image {
-  margin: auto;
-  max-width: 100%;
-  height: 250px;
-  border: 1px solid #000;
-  vertical-align: center;
-  position: relative;
-  background-image: url('../images/produce-app.png');
-  background-position: center;
-  background-size: cover;
-  padding-bottom: 50px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /* ------- SKILLS --------*/
 .icons {
   margin-top: -50px;
@@ -252,14 +238,51 @@ hr {
 }
 
 .title-h3 {
+  font-weight: 500;
   text-align: center;
+  text-shadow: 1px 1px 2px rgba(0,0,0, 0.3);
   font-size: 60px;
-  color: black;
-  opacity: .7;
+  color: white;
   margin: 50px;
 }
 
-/* ------ PROJECTS ------*/
+.fancy-skills span:before,
+.fancy-skills span:after {
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  box-shadow: 1px 1px 2px rgba(0,0,0, 0.3);
+  width: 400px;
+}
+.fancy-skills span:before {
+  right: 100%;
+  margin-right: 25px;
+}
+.fancy-skills span:after {
+  left: 100%;
+  margin-left: 25px;
+}
+
+/* ------- PROJECTS ------- */
+.project {
+  margin: auto;
+  max-width: 100%;
+  height: 250px;
+  border: 1px solid #000;
+  vertical-align: center;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.produce-app {
+  background-image: url('../images/produce-app.png');
+}
+.medidate {
+  background-image: url('../images/Medidate.png');
+}
 .projects {
   background-position: center;
   background-repeat: repeat;

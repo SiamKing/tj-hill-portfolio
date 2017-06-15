@@ -38,10 +38,10 @@ $(function() {
   })
 });
 
-
 function onScroll(event){
+  event.preventDefault();
     var scrollPos = $(document).scrollTop();
-    $('nav ul li').each(function () {
+    $('nav ul li').each(function (e) {
         var currLink = $(this);
         var refElement = $(currLink.find('a').attr("href"));
 
