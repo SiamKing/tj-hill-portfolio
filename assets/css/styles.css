@@ -346,6 +346,7 @@ hr {
   }
   .title-h3 {
     font-size: 40px;
+    color: #fff !important;
   }
   .tj-title {
     font-size: 50px;
@@ -367,12 +368,6 @@ hr {
   }
 
 }
-
-/*@media only screen and (max-width : 375px) {
-  .text-center {
-    margin-left: -170px;
-  }
-}*/
 
 .container {
   margin: 0 auto;
