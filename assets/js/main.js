@@ -1,7 +1,7 @@
 // PRELOADER
-// $(window).on('load', function(){
-//   $('.preloader').fadeOut(1000); // set duration in brackets
-// });
+$(window).on('load', function(){
+  $('.preloader').fadeOut(1000); // set duration in brackets
+});
 
 $(function() {
   var scroll_start = 0;
