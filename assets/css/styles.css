@@ -288,6 +288,10 @@ hr {
 .medidate {
   background-image: url('../images/Medidate.png');
 }
+
+.joti {
+  background-image: url('../images/joti.png');
+}
 .projects {
   background-position: center;
   background-repeat: repeat;
