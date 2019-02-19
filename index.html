@@ -54,8 +54,7 @@
           <li class="active"><a href="#top">HOME</a></li>
           <li><a href="#about">ABOUT</a></li>
           <li><a href="#skills">SKILLS</a></li>
-          <li><a href="#projects">PROJECTS</a></li>
-          <li><a href="https://siamking.wordpress.com/" target="_blank">BLOG</a></li>
+          <li><a href="#projects">PROJECTS & CLIENTS</a></li>
         </ul>
       </nav>
     </div>
@@ -173,18 +172,28 @@
   <div class="container">
     <div class="section">
       <div class="title-h3 center fancy fancy-skills">
-        <span>PROJECTS</span>
+        <span>PROJECTS & CLIENTS</span>
       </div>
       <div class="card">
         <div class="row">
-          <div class="col-md-6">
-            <a href="https://wiltnomore.herokuapp.com/" target="_blank">
-              <div class="project wilt-no-more"></div>
-              <div class="projects-title">Wilt No More</div>
-            </a>
+          <div class="col-lg-6">
+            <div class="video-container">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/PJ7IXQsFmSg"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="projects-title"><a
+              href="https://wiltnomore.herokuapp.com/"
+              target="_blank"
+            >Wilt No More - Track the freshness of your produce</a></div>
           </div>
-          <div class="col-md-6">
-            <div class="card-block">
+          <div class="col-lg-6">
+            <div class="card-block m-l-20">
               <p class="card-text"><strong>We've all had the bad experience of finding rotten produce in our fridge. Well, say goodbye to rotten produce with Wilt No More - an app that keeps track of when your produce will expire!</strong></p>
               <br>
               <ul class="card-text">
@@ -201,9 +210,26 @@
 
       <div class="card">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-lg-6 col-lg-push-6">
+            <div class="video-container">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/4eIAbVAMrRI"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="projects-title"><a
+              href="https://medi-date.herokuapp.com/"
+              target="_blank"
+            >Medidate - A Meditation Scheduler</a></div>
+          </div>
+          <div class="col-lg-6 col-lg-pull-6">
             <div class="card-block">
-              <p class="card-text"><strong>A web app that keeps track of your meditations and helps you explore new meditation techniques.</strong></p>
+              <p class="card-text"><strong>A web app that keeps track of your meditations and helps you explore new meditation
+                  techniques.</strong></p>
               <br>
               <ul class="card-text">
                 <li>Built the backend with Rails as an API.</li>
@@ -212,28 +238,57 @@
                 <li>Managed routed with UI Router and implemented nested views.</li>
                 <li>Serialized data to JSON with Active Model Serializer and configured calls to the API with $http service.</li>
               </ul>
-              <a href="https://medi-date.herokuapp.com/" target="_blank" class="btn btn-default pull-left">Check it out</a>
+              <a
+                href="https://medi-date.herokuapp.com/"
+                target="_blank"
+                class="btn btn-default pull-left"
+              >Check it out</a>
             </div>
-          </div>
-          <div class="col-md-6">
-            <a href="https://medi-date.herokuapp.com/" target="_blank">
-              <div class="project medidate"></div>
-              <div class="projects-title">Medidate - A Meditation Scheduler</div>
-            </a>
           </div>
         </div>
       </div>
 
       <div class="card">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-lg-6">
+            <a
+              href="https://smartrexchange.herokuapp.com"
+              target="_blank"
+            >
+              <div class="project smartrexchange"></div>
+              <div class="projects-title">SmartrExchange</div>
+            </a>
+          </div>
+          <br>
+          <div class="col-lg-6">
+            <div class="card-block m-l-20">
+              <p class="card-text"><strong>Explore the BRL (Brazilian Real Dollar) exchange rates against the USD, EUR, and AUD.</strong></p>
+              <ul class="card-text">
+                <li>Utilized the Faraday gem for third party API requests.</li>
+                <li>Employed TDD with RSPEC and Capybara.</li>
+                <li>Configured API data to graph format with the Chartkick gem</li>
+                <li>Harnessed AJAX functionality with the help of “remote: true”</li>
+              </ul>
+              <a
+                href="https://smartrexchange.herokuapp.com"
+                target="_blank"
+                class="btn btn-default pull-right"
+              >Check it out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="row">
+          <div class="col-lg-6 col-lg-push-6">
             <a href="https://siamking.github.io/joti" target="_blank">
               <div class="project joti"></div>
               <div class="projects-title">Joti Software - Enlightened Development</div>
             </a>
           </div>
           <br>
-          <div class="col-md-6">
+          <div class="col-lg-6 col-lg-pull-6">
             <div class="card-block">
               <p class="card-text"><strong>Web development for socially conscious companies. Joti helps non-profits and socially conscious companies by building their websites on a very good budget.</strong></p>
                 <ul class="card-text">
@@ -241,7 +296,7 @@
                   <li>Mixed in custom CSS.</li>
                   <li>Configured jQuery for smooth scrolling and for changing navbar look when scrolled</li>
                 </ul>
-              <a href="https://siamking.github.io/joti" target="_blank" class="btn btn-default pull-right">Check it out</a>
+              <a href="https://siamking.github.io/joti" target="_blank" class="btn btn-default pull-left">Check it out</a>
             </div>
           </div>
         </div>
